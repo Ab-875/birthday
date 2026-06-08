@@ -70,7 +70,15 @@ for (let i = 0; i < 18; i++) {
   setTimeout(createFallingTulip, i * 220);
 }
 
+const music = document.getElementById("birthdayMusic");
+
 openGiftBtn.addEventListener("click", () => {
+  
+  if (music.paused) {
+    music.volume = 0.4;
+    music.play();
+  }
+
   giftSection.classList.add("show");
   launchCatConfetti();
 
