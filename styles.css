@@ -1,4 +1,14 @@
+html {
+  color-scheme: only light;
+  background: #fff7fb;
+}
+
+body {
+  forced-color-adjust: none;
+}
+
 :root {
+  color-scheme: only light;
   --pink: #f45d93;
   --pink-dark: #d83c75;
   --soft-pink: #ffe2ee;
