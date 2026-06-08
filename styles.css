@@ -433,3 +433,26 @@ footer {
     transform-origin: top center;
   }
 }
+
+body {
+  background:
+    radial-gradient(circle at top left, #ffe0ec, transparent 32%),
+    radial-gradient(circle at top right, #f4d5ff, transparent 30%),
+    linear-gradient(180deg, #fff7fb 0%, #ffe7f1 52%, #fff7fb 100%) !important;
+  color: #2b2330 !important;
+}
+
+.hero,
+.gift-section {
+  background: transparent !important;
+}
+
+.message-card,
+.final-note {
+  background: rgba(255, 255, 255, 0.86) !important;
+  color: #2b2330 !important;
+}
+
+.gift-button {
+  background: linear-gradient(135deg, #ff77a7, #e83f82) !important;
+}
